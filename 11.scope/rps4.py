@@ -29,8 +29,8 @@ def playgame(playagain):
     compchoice = int(computerchoice)
 
     print("")
-    print("your Choice : "+ str(RPS(player)).replace("RPS.","" )+"\n")
-    print("computerchoice :"+str(RPS(compchoice)).replace("RPS.","" )+"\n")
+    print(f"your Choice {str(RPS(player)).replace('RPS.','')}\n")
+    print(f"your Choice {str(RPS(compchoice)).replace('RPS.','')}\n")
     print("")
     def decide_winner(player, computerchoice):
         if player == 1 and computerchoice==3:
