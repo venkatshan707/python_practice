@@ -13,7 +13,6 @@ flower = "Sunflower"
 
 song = "Home on the Range"
 
-
 def randomfunfact():
     funfacts = [
         "Kansas is considered flat, but it does have a mountain.",
